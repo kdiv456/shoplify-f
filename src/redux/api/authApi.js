@@ -4,7 +4,7 @@ import { userApi } from "./userApi";
 export const authApi = createApi({
   reducerPath: "authApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "/api/v1",
+    baseUrl: "https://shoplify-b.onrender.com/api/v1",
   }),
   endpoints: (builder) => ({
     register: builder.mutation({
